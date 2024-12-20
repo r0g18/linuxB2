@@ -134,7 +134,7 @@ $ ls
 # www.supersite.com.crt c'est le certificat qu'utilisera le serveur web
 ```
 
-🌞 **Ajustez la configuration NGINX**
+🌞 Ajustez la configuration NGINX
 
 - le site web doit être disponible en HTTPS en utilisant votre clé et votre certificat
 - une conf minimale ressemble à ça :
