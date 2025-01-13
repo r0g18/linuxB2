@@ -1,0 +1,3 @@
+# Ignorer les certificats SSL dans https_auto
+TP2/https_auto/server.crt
+TP2/https_auto/server.key
