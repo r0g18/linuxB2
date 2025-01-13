@@ -123,7 +123,7 @@ subjectAltName = @alt_names
 
 [alt_names]
 DNS.1 = www.supersite.com
-DNS.2 = www.tp7.secu
+DNS.2 = www.tp2.admins
 ```
 
 - effectuer la demande de signature pour récup un certificat signé par votre CA :
@@ -159,7 +159,7 @@ server {
 
 🌞 Ajouter le certificat de la CA dans votre navigateur
 
-- vous pourrez ensuite visitez `https://web.tp7.b2` sans alerte de sécurité, et avec un cadenas vert
+- vous pourrez ensuite visitez `https://www.supersite.com` sans alerte de sécurité, et avec un cadenas vert
 - il est nécessaire de joindre le site avec son nom pour que HTTPS fonctionne (fichier `hosts`)
 
 > *En entreprise, c'est comme ça qu'on fait pour qu'un certificat de CA non-public soit trusted par tout le monde : on dépose le certificat de CA dans le navigateur (et l'OS) de tous les PCs. Evidemment, on utilise une technique de déploiement automatisé aussi dans la vraie vie, on l'ajoute pas à la main partout hehe.*
